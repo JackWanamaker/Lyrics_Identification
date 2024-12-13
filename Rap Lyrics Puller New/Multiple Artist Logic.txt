@@ -1,0 +1,35 @@
+Syntax For Different Artits:
+, denoting different artists
+& denoting different artists
+& denoting both artists with a , present and in a tag
+& denoting different artists with a , present outside of tag
++ denoting different artists
+
+Syntax For Their Lyrics:
+<i></i>
+<b></b>
+()
+<i> without any other artist there?
+
+-Okay, this is a unique problem...As the comma doesn't
+always denote a change in the & logic... Wait... If the
+& is before the comma it acts as a "single artist",
+whereas if it is after the comma but in a tag, it
+acts as a "single artist". However, if it is after
+the comma but outside of a tag, it acts as a "comma"
+to denote two different artists
+
+It is also true that if there is only an & symbol, it
+acts as if it is inside a tag
+
++ acts like a comma
+
+There is one case where the & is between two bold tags
+but this shouldn't cause problems? I guess I can actually
+make different instances of each artist separate?
+
+Okay so first I'd like to replace the + symbol with a
+comma ,
+
+Then, I'd like to replace &s with ,s for cases where they
+act like ,s instead of &s

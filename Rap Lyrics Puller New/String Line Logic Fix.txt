@@ -1,0 +1,21 @@
+Okay, I don't know how to solve this problem...
+
+The loops I have been using have been going character
+by character. That's all well and good, but now I have lines
+involved... This complicates things a great deal...
+
+Reason being is that tags may be across multiple lines,
+not just one...
+
+The String processing was easy before, as it was a single
+String... No biggie... But now I have built my entire
+initial identification system on lines...
+
+Okay, in that case it may be easiest to avoid using multiple
+lines altogether... But in that case I am unsure of how
+to verify... Wait... Yes I can...
+
+Jesus Christ... I can create a String splice...
+
+And then iterate through adding lyrics until there is a
+</div>. 

@@ -1,0 +1,25 @@
+Okay, so I have another issue to overcome, which is in
+regards to the tags... Right now we have a slight problem...
+That being that the tags are saved as strings in an array,
+whereas this isn't necessarily the ideal approach...
+
+Instead, I actually need to check if the artist is already
+in the Verse in another form... This means that a single
+artist can actually share MULTIPLE TAGS... Oh... I see
+
+So not only can multiple artists share a single tag, a
+single artist can share mutliple tags... This makes things
+more complicated...
+
+In addition, I also need tags removed from the artist header
+in the case of ["All"]. In fact, this loop can remain
+unchanged! As this is a special case after all... However,
+the other case's loop will need to be modified in order to
+accomodate the data structure change from array of Strings
+to array of arrrays of Strings...
+
+So I will need to reference the array of artists to check
+if one of the ones in the & is already in the artist array.
+
+[[Snoop Dogg], [Snoop Dogg, Dr. Dre]]
+[[None, i], [i]]

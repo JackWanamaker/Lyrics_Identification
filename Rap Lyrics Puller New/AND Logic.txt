@@ -1,0 +1,16 @@
+AND Cases
+-Case where there is no comma, tags, and & acts like commas
+outside of tags
+-Case where there is a comma and & acts like commas outside
+of tags
+-Case where there is a comma, and & acts like AND inside tags
+-Case where there is a comma, and & acts like AND outside
+tags, but BEFORE the comma
+
+So the & depends on two things:
+1. If inside tags, it acts as an &, or if tags exist but is
+before the comma
+2. Otherwise, it acts as a ,
+
+I can use this logic to replace the &s I need to with ,s
+by taking the not of the if statement

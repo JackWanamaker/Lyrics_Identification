@@ -1,0 +1,13 @@
+Array Logic
+So I want to figure out the logic of the arrays...
+
+I want to append the artist as an array with a string
+inside of it. However, 
+
+[Snoop Dogg, [RBX, Lady of Rage], Dr. Dre]
+
+OR
+
+[[Snoop Dogg], [RBX, Lady or Rage], [Dr. Dre]]
+
+Jewell & Dr. Dre, <i>Snoop Dogg</i>, <b>Snoop Dogg & RBX</b>

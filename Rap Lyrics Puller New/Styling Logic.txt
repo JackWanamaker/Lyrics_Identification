@@ -1,0 +1,38 @@
+Styling artist separation logic (oh boy)
+
+First, we need logic that will handle when two artists share
+a certain set of lyrics...
+
+Then, we need a separate set of logic that will handle when
+there are tags... Perhaps a simple nested array structure
+will work fine for this...
+
+We can have an array of the identifiers, ala none, <i>, <b>
+and (
+
+Maybe we do it a little differently... Maybe instead we
+utilize BeautifulSoup for this task... I think it may make
+more sense... Or maybe we create an array of the artists
+beforehand based on their tags and essentially map it to
+each one?
+
+Damn...
+
+Okay, so we essentially process the logic you have made using
+,s and &s... So the array structure will be like this...
+
+We have an array, and for each index there is an additional
+array...
+
+When processing ,s we place an artist in a separate index
+of the base array, while if it is an &, we place the artist
+in a separate index of the inner array...
+
+This way it can be structured that the corresponding lyrics
+can be mapped to an artist based on styling, but also mapped
+to the same artist if 2 artists both said it...
+
+Hmmm... So I guess 
+
+<i>Snoop Dogg</i>
+<i><b>RBX</b></i>
